@@ -22,3 +22,9 @@ html {
   margin: 2rem auto;
   border-radius: 2px;
 }
+button{
+  background-color: gray;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
