@@ -35,3 +35,6 @@ button{
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.controls{
+  background-color: black;
+}
