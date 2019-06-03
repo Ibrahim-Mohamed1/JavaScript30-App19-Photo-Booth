@@ -121,3 +121,6 @@ button{
 a{
   text-decoration-color: white;
 }
+h2{
+  display: none;
+}
