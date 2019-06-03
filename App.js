@@ -59,3 +59,11 @@ function rgbSplit(pixels) {
   return pixels;
 }
 
+function greenScreen(pixels) {
+  const levels = {};
+
+  document.querySelectorAll('.rgb input').forEach((input) => {
+    levels[input.name] = input.value;
+  });
+
+}
