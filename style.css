@@ -41,3 +41,7 @@ button{
 .photo{
   margin-bottom: 10px
 }
+html {
+  font-size: 10px;
+  background: #ffc600;
+}
