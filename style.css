@@ -61,3 +61,8 @@ button{
   width: 30px;
   height: 33px;
 }
+.photobooth:after {
+  content: '';
+  display: block;
+  clear: both;
+}
