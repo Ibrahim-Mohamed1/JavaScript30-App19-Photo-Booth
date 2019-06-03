@@ -28,3 +28,10 @@ function paintToCanvas() {
     ctx.putImageData(pixels, 0, 0);
   }, 16);
 }
+
+function takePhoto() {
+  snap.currentTime = 0;
+  snap.play();
+
+
+}
