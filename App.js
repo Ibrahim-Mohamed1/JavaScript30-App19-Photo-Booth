@@ -11,5 +11,7 @@ function getVideo() {
       video.srcObject = localMediaStream;
       video.play();
     })
-
+    .catch(err => {
+      console.error(`OH NO!!!`, err);
+    });
 }
