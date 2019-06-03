@@ -66,4 +66,13 @@ function greenScreen(pixels) {
     levels[input.name] = input.value;
   });
 
+  for (i = 0; i < pixels.data.length; i = i + 4) {
+    red = pixels.data[i + 0];
+    green = pixels.data[i + 1];
+    blue = pixels.data[i + 2];
+    alpha = pixels.data[i + 3];
+
+    
+  }
+
 }
