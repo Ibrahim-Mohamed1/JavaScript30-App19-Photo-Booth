@@ -66,3 +66,8 @@ button{
   display: block;
   clear: both;
 }
+
+.photo {
+  width: 100%;
+  float: left;
+}
