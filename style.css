@@ -81,3 +81,8 @@ button{
   display: block;
   clear: both;
 }
+.photobooth:after {
+  content: '';
+  display: block;
+  clear: both;
+}
